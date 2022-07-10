@@ -21,7 +21,7 @@
 /**
  * struct fat - factors of structure
  *
- * @fat: Factors
+ * @fat: Format
  * @fn: The function
  */
 struct fat
@@ -35,12 +35,15 @@ struct fat
  * typedef struct fmt fmt_t - Factors of structure
  *
  * @fat: format.
+ * @fm_t: The function associated.
  */
 typedef struct fmt fmt_t;
 
 int _printf(const char *format, ...);
 int handle_print(const char *fmt, int *i,
 		va_list list, char buffer[], int flags, int width, int precision, int size);
+
+/****************** FUNCTIONS ******************/
 
 /* Functions to print both character and string */
 int print_char(va_list types, char buffer[],
@@ -111,4 +114,4 @@ int is_digit(char);
 long int convert_size_number(long int num, int size);
 long int convert_size_unsgnd(unsigned long int num, int size);
 
-#endif
+#endif /* MAIN_H */
