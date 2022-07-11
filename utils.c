@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * is_printable - function name
- * @c: function parameter
+ * is_printable - Evaluates if a char is printable
+ * @c: Char to be evaluated.
  *
- * Return: a value
+ * Return: 1 if c is printable, 0 otherwise
  */
 int is_printable(char c)
 {
@@ -37,19 +37,6 @@ int append_hexa_code(char ascii_code, char buffer[], int i)
 	return (3);
 }
 
-/**
- * is_digit - Verifies if a char is a digit
- * @c: Char to be evaluated
- *
- * Return: 1 if c is a digit, 0 otherwise
- */
-int is_digit(char c)
-{
-	if (c >= '0' && c <= '9')
-		return (1);
-
-	return (0);
-}
 /**
  * is_digit - Verifies if a char is a digit
  * @c: Char to be evaluated
