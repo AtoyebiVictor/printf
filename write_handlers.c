@@ -5,10 +5,10 @@
  * handle_write_char - Prints a string
  * @c: char types.
  * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags.
- * @width: get width.
- * @precision: precision specifier
- * @size: Size specifier
+ * @flags:  Calculates the active flags.
+ * @width: Set width.
+ * @precision: Specifier
+ * @size: Size identifier
  *
  * Return: Number of chars printed.
  */

@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * get_size - func name
- * @format: format param
+ * get_size - func name of size
+ * @format: format parameter in the value
  * @i: param 1.
  *
  * Return: a value
